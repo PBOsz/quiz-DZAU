@@ -26,7 +26,7 @@ MIX = '5'
 opcao_user = input('Digite o número da opção: ')
 if opcao_user == MATEMÁTICA:
  print('Quiz de Matemática do DZAU iniciando' )
- print(Um número é uma representação abstrata da quantidade que queremos quantificar, enquanto o numeral é o desenho ou símbolo utilizado para representar essa quantidade.\n (B)TESTE.\n (C)teste.\n')
+ print('Pela definição, o que é um número e um numeral?\n (A) Um número é uma representação abstrata da quantidade que queremos quantificar, enquanto o numeral é o desenho ou símbolo utilizado para representar essa quantidade.\n (B)TESTE.\n (C)teste.\n')
  resp_1 = input('Resposta: ').strip().upper()
  
  if resp_1 == 'A':
